@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LittleCare | Precision Pediatric Surgery</title>
+    <meta name="description" content="Advanced pediatric surgical care.">
+    
+    <!-- Premium Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (minimal usage) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="pageLoader" class="page-loader">
+        <div class="loader-content">
+            <div class="loader-monogram">LV</div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="customCursor"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="brand">
+                <span class="brand-text">LittleCare</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#specialties">Specialties</a>
+                <a href="#upload">Upload Report</a>
+                <a href="#appointment">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#appointment" class="btn btn-primary">Book Consultation</a>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-links">
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#specialties" class="mobile-link">Specialties</a>
+            <a href="#upload" class="mobile-link">Upload Report</a>
+            <a href="#appointment" class="mobile-link">Contact</a>
+            <a href="#appointment" class="btn btn-primary mt-4">Book Consultation</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-content reveal-up">
+                <div class="hero-label">Advanced Pediatric Surgery</div>
+                <h1 class="hero-title">Precision care for<br>the most precious<br>patients.</h1>
+                <p class="hero-subtitle">World-class surgical excellence combined with uncompromising compassion. We set the global standard for pediatric care.</p>
+                
+                <div class="hero-actions">
+                    <a href="#appointment" class="btn btn-primary btn-lg">
+                        Schedule a Visit <i class="fa-solid fa-arrow-right icon-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual reveal-up delay-1">
+                <div class="image-reveal-wrapper">
+                    <img src="p1.jpg.jpg.jpeg" alt="Surgical Team" class="hero-img parallax-img" style="object-position: top center; object-fit: contain;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Banner -->
+    <div class="trust-banner">
+        <div class="container">
+            <div class="trust-track">
+                <span>AMASI</span>
+                <span class="trust-dot">•</span>
+                <span>FAIS</span>
+                <span class="trust-dot">•</span>
+                <span>FISCP</span>
+                <span class="trust-dot">•</span>
+                <span>MCLS</span>
+                <span class="trust-dot">•</span>
+                <span>Shree Aggarssain Hospital</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Metrics Section (Stark, bold contrast) -->
+    <section class="metrics bg-dark" id="stats">
+        <div class="container">
+            <div class="metrics-grid">
+                <div class="metric-item reveal-up">
+                    <div class="metric-value"><span class="counter" data-target="15000">0</span>+</div>
+                    <div class="metric-label">Successful Procedures</div>
+                </div>
+                <div class="metric-item reveal-up delay-1">
+                    <div class="metric-value"><span class="counter" data-target="25">0</span></div>
+                    <div class="metric-label">Years of Excellence</div>
+                </div>
+                <div class="metric-item reveal-up delay-2">
+                    <div class="metric-value"><span class="counter" data-target="99">0</span>%</div>
+                    <div class="metric-label">Parent Satisfaction</div>
+                </div>
+                <div class="metric-item reveal-up delay-3">
+                    <div class="metric-value">24/7</div>
+                    <div class="metric-label">Surgical Readiness</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Editorial About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-layout">
+                <div class="about-image-wrapper reveal-up">
+                    <img src="dr-lokesh-profile.jpg.jpg.jpeg" alt="Dr. Lokesh Vijay" class="about-img">
+                </div>
+                
+                <div class="about-text reveal-up delay-1">
+                    <h2 class="section-heading">Excellence in advanced surgical care.</h2>
+                    <p class="lead-text">Led by Dr. Lokesh Vijay, an esteemed General and Minimal Access Surgeon. With extensive fellowships (DMAS, FMAS, FAIS) and over a decade of clinical excellence, he specializes in advanced laser, endovenous, and minimally invasive procedures.</p>
+                    
+                    <div class="credentials-list">
+                        <div class="credential-row">
+                            <span class="cred-title">Education</span>
+                            <span class="cred-detail">MBBS, MS (General Surgery)</span>
+                        </div>
+                        <div class="credential-row">
+                            <span class="cred-title">Fellowships</span>
+                            <span class="cred-detail">DMAS, FMAS, FAIS, FISCP</span>
+                        </div>
+                        <div class="credential-row">
+                            <span class="cred-title">Current Role</span>
+                            <span class="cred-detail">Consultant, Shree Aggarssain Int. Hospital</span>
+                        </div>
+                        <div class="credential-row">
+                            <span class="cred-title">Expertise</span>
+                            <span class="cred-detail">Minimal Access, Laser & Endovenous Surgery</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#bio" class="link-arrow mt-4" id="bioTrigger">Read full biography <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!-- Patient Journey Timeline -->
+    <section class="journey-section section bg-gray" id="journey">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-heading">Your Journey with Us</h2>
+                <p class="section-desc">We have optimized our clinical pathway to eliminate anxiety and provide absolute clarity from day one.</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item reveal-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>1. Initial Consultation</h3>
+                        <p>A comprehensive evaluation of your child's condition. Dr. Lokesh takes time to listen, diagnose, and explain all available options clearly.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item right reveal-up delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2. Secure Document Review</h3>
+                        <p>Upload your prior scans and reports via our secure portal. Our clinical team reviews everything before you even step into the operating theater.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item reveal-up delay-2">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>3. The Procedure</h3>
+                        <p>Utilizing state-of-the-art minimal access and laser techniques. Our focus is on precision, safety, and minimizing trauma.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item right reveal-up delay-3">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>4. Rapid Recovery</h3>
+                        <p>Minimal access means faster healing. We provide comprehensive post-op guidance and 24/7 support during the critical recovery phase.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specialties Grid -->
+    <section class="specialties section bg-gray" id="specialties">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-heading">Clinical Capabilities</h2>
+                <p class="section-desc">We offer a comprehensive suite of pediatric surgical interventions, utilizing the most advanced technology available.</p>
+            </div>
+            
+            <div class="specialty-grid">
+                <!-- Item 1 -->
+                <div class="specialty-cell reveal-up">
+                    <div class="specialty-content">
+                        <h3>Neonatal Surgery</h3>
+                        <p>Complex surgical interventions for premature and critically ill newborns with congenital anomalies.</p>
+                    </div>
+                    <div class="specialty-hover-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="specialty-cell reveal-up delay-1">
+                    <div class="specialty-content">
+                        <h3>Minimally Invasive</h3>
+                        <p>Advanced laparoscopic and thoracoscopic techniques ensuring minimal scarring and rapid recovery.</p>
+                    </div>
+                    <div class="specialty-hover-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="specialty-cell reveal-up delay-2">
+                    <div class="specialty-content">
+                        <h3>Pediatric Urology</h3>
+                        <p>Specialized reconstructive surgery and treatment for conditions of the pediatric urinary tract.</p>
+                    </div>
+                    <div class="specialty-hover-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+                
+                <!-- Item 4 -->
+                <div class="specialty-cell reveal-up">
+                    <div class="specialty-content">
+                        <h3>Thoracic Surgery</h3>
+                        <p>Expert care for congenital and acquired conditions of the chest wall, lungs, and airways.</p>
+                    </div>
+                    <div class="specialty-hover-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+                
+                <!-- Item 5 -->
+                <div class="specialty-cell reveal-up delay-1">
+                    <div class="specialty-content">
+                        <h3>Gastrointestinal</h3>
+                        <p>Comprehensive surgical management of pediatric digestive disorders and bowel conditions.</p>
+                    </div>
+                    <div class="specialty-hover-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+                
+                <!-- Item 6 -->
+                <div class="specialty-cell reveal-up delay-2">
+                    <div class="specialty-content">
+                        <h3>Trauma & Critical Care</h3>
+                        <p>Level 1 response capability for severe pediatric traumatic injuries requiring immediate intervention.</p>
+                    </div>
+                    <div class="specialty-hover-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+                
+                <!-- Item 7 -->
+                <div class="specialty-cell reveal-up">
+                    <div class="specialty-content">
+                        <h3>General Surgery</h3>
+                        <p>Expert surgical management for hernias, appendicitis, and other common childhood conditions.</p>
+                    </div>
+                    <div class="specialty-hover-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upload Health Report Section -->
+    <section class="upload-section section bg-gray" id="upload">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-heading">Secure Document Portal</h2>
+                <p class="section-desc">Upload your prior medical records, imaging reports, or referral documents securely for Dr. Lokesh Vijay to review before your consultation.</p>
+            </div>
+            
+            <div class="upload-container reveal-up delay-1">
+                <div class="upload-dropzone" id="uploadDropzone">
+                    <input type="file" id="fileInput" class="upload-input" multiple accept=".pdf,.jpg,.jpeg,.png,.doc,.docx">
+                    <i class="fa-solid fa-cloud-arrow-up upload-icon"></i>
+                    <h3 class="upload-title">Drag & Drop Files Here</h3>
+                    <p class="upload-subtitle">or <span class="text-underline">click to browse</span> from your computer</p>
+                    <p class="upload-limits">Supported formats: PDF, JPG, PNG, DOCX (Max 25MB)</p>
+                </div>
+                
+                <div class="upload-status" id="uploadStatus" style="display: none;">
+                    <div class="upload-progress-bar">
+                        <div class="upload-progress-fill" id="uploadProgressFill"></div>
+                    </div>
+                    <p class="upload-status-text" id="uploadStatusText">Uploading document...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials (Editorial quote style) -->
+    <section class="testimonial-section section" id="reviews">
+        <div class="container">
+            <div class="quote-wrapper reveal-up">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <div class="quote-slider" id="quoteSlider">
+                    <div class="quote-slide active">
+                        <p class="quote-text">"The level of clinical excellence combined with the profound empathy shown to our family was unparalleled. Dr. Jenkins didn't just perform a flawless surgery; she guided us through the darkest moment of our lives with absolute grace."</p>
+                        <p class="quote-author">— Eleanor & James Sterling</p>
+                    </div>
+                    <div class="quote-slide">
+                        <p class="quote-text">"From the state-of-the-art facility to the meticulous post-operative care, every aspect of LittleCare operates at the highest conceivable standard. They are unequivocally the best in their field."</p>
+                        <p class="quote-author">— The Thompson Family</p>
+                    </div>
+                </div>
+                <div class="quote-controls">
+                    <button class="quote-btn" id="prevQuote"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="quote-btn" id="nextQuote"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- High-end Booking Form Section -->
+    <section class="appointment section bg-dark" id="appointment">
+        <div class="container">
+            <div class="appointment-layout">
+                <div class="appointment-copy reveal-up">
+                    <h2 class="section-heading text-white">Initiate Care.</h2>
+                    <p class="lead-text text-light-gray">Request a consultation with our surgical team. Our patient coordinators will ensure a seamless onboarding process.</p>
+                    
+                    <div class="contact-info mt-4">
+                        <p><strong>Direct Line & WhatsApp</strong><br>+91 8586848883</p>
+                        <p class="mt-4"><strong>Email</strong><br>drlokeshvijay@gmail.com</p>
+                        <p class="mt-4"><strong>Location</strong><br>Shree Aggarssain International Hospital<br>Sector-22, Rohini, Delhi-110086</p>
+                    </div>
+                </div>
+                
+                <div class="appointment-form-wrapper reveal-up delay-1">
+                    <form id="premiumForm" class="premium-form">
+                        <div class="input-row">
+                            <div class="input-field">
+                                <input type="text" id="parentName" required placeholder=" ">
+                                <label for="parentName">Parent/Guardian Name</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="patientName" required placeholder=" ">
+                                <label for="patientName">Patient Name</label>
+                            </div>
+                        </div>
+                        
+                        <div class="input-row">
+                            <div class="input-field">
+                                <input type="email" id="email" required placeholder=" ">
+                                <label for="email">Email Address</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="tel" id="phone" required placeholder=" ">
+                                <label for="phone">Phone Number</label>
+                            </div>
+                        </div>
+                        
+                        <div class="input-field">
+                            <select id="service" required>
+                                <option value="" disabled selected>Select Area of Concern</option>
+                                <option value="neonatal">Neonatal Consult</option>
+                                <option value="general">General Surgery Consult</option>
+                                <option value="urology">Urology Consult</option>
+                                <option value="second_opinion">Second Opinion</option>
+                            </select>
+                        </div>
+                        
+                        <div class="input-row">
+                            <div class="input-field">
+                                <input type="date" id="prefDate" required style="color: var(--text-light);" onchange="this.style.color='var(--text-main)'">
+                                <label for="prefDate" style="transform: translateY(-25px) scale(0.85); color: var(--text-main);">Preferred Date</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="time" id="prefTime" required style="color: var(--text-light);" onchange="this.style.color='var(--text-main)'">
+                                <label for="prefTime" style="transform: translateY(-25px) scale(0.85); color: var(--text-main);">Preferred Time</label>
+                            </div>
+                        </div>
+                        
+                        <div class="input-field">
+                            <textarea id="message" rows="1" required placeholder=" "></textarea>
+                            <label for="message">Brief Description of Condition</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block mt-4">
+                            Submit Request <i class="fa-solid fa-arrow-right icon-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <!-- Common Anxieties FAQ -->
+    <section class="faq-section section" id="faq">
+        <div class="container">
+            <div class="faq-layout">
+                <div class="faq-header reveal-up">
+                    <h2 class="section-heading">Common Anxieties,<br>Answered.</h2>
+                    <p class="section-desc">We understand the fear that comes with pediatric surgery. Clarity is the antidote to anxiety.</p>
+                </div>
+                
+                <div class="faq-list reveal-up delay-1">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Will the surgery leave a large scar?</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>No. Dr. Lokesh specializes in Minimal Access (Laparoscopic) and Laser Surgery. These advanced techniques use incredibly small incisions (often just millimeters wide), resulting in virtually invisible scarring and significantly reduced pain.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How fast is the recovery time?</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Because we use minimally invasive techniques, tissue trauma is vastly reduced. Most pediatric patients are able to return home within 24 to 48 hours, and resume normal light activities within a few days.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Is anesthesia safe for my child?</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely. We partner exclusively with specialized pediatric anesthesiologists. Your child's vitals are monitored continuously using state-of-the-art equipment to ensure maximum safety throughout the entire procedure.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What if we have an emergency after surgery?</h3>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>You are never alone. Our clinical team provides 24/7 post-operative support. You will have direct access to our emergency line and WhatsApp channel for immediate guidance from Dr. Lokesh and his team.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-layout">
+                <div class="footer-brand">
+                    <span class="brand-text">LittleCare</span>
+                    <p class="footer-tagline">Setting the global standard for pediatric surgical excellence.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Institute</h4>
+                        <a href="#">Leadership</a>
+                        <a href="#">Clinical Outcomes</a>
+                        <a href="#">Research & Trials</a>
+                        <a href="#">Careers</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Patients</h4>
+                        <a href="#">Patient Portal</a>
+                        <a href="#">Billing & Insurance</a>
+                        <a href="#">Pre-op Instructions</a>
+                        <a href="#">Visitor Policy</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">HIPAA Compliance</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 LittleCare Pediatric Institute. All rights reserved.</p>
+                    <p class="mt-2" style="font-size: 0.85rem; color: var(--text-muted);">
+                        Developed by Nikunj Bhardawaj | Contact: <a href="mailto:nikunjbhardwaj9876@gmail.com" style="color: var(--text-muted); text-decoration: underline;">nikunjbhardwaj9876@gmail.com</a>
+                    </p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Specialty Detail Drawer -->
+    <div class="specialty-drawer" id="specialtyDrawer">
+        <div class="drawer-overlay" id="drawerOverlay"></div>
+        <div class="drawer-content">
+            <button class="drawer-close" id="drawerClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="drawer-body">
+                <h2 class="drawer-title" id="drawerTitle">Specialty Title</h2>
+                <div class="drawer-desc" id="drawerDesc">Detailed description goes here.</div>
+                <ul class="drawer-features" id="drawerFeatures">
+                    <!-- populated via js -->
+                </ul>
+                <a href="#appointment" class="btn btn-primary mt-4 w-100" id="drawerBookBtn">Book Consultation</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Global Feedback System -->
+    <button class="feedback-trigger" id="feedbackTrigger">Feedback</button>
+    
+    <div class="feedback-modal" id="feedbackModal">
+        <div class="feedback-overlay" id="feedbackOverlay"></div>
+        <div class="feedback-content">
+            <button class="feedback-close" id="feedbackClose"><i class="fa-solid fa-xmark"></i></button>
+            <h3 class="feedback-title">Website Feedback</h3>
+            <p class="feedback-desc">How would you rate your experience with our website today?</p>
+            
+            <form id="feedbackForm" class="feedback-form">
+                <div class="rating-group">
+                    <input type="radio" id="star5" name="rating" value="5" required /><label for="star5" title="Excellent"><i class="fa-solid fa-star"></i></label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Good"><i class="fa-solid fa-star"></i></label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Average"><i class="fa-solid fa-star"></i></label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Poor"><i class="fa-solid fa-star"></i></label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Very Poor"><i class="fa-solid fa-star"></i></label>
+                </div>
+                
+                <div class="input-field mt-4">
+                    <textarea id="feedbackMessage" rows="3" required placeholder=" "></textarea>
+                    <label for="feedbackMessage">What could we improve?</label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block mt-4">Submit Feedback</button>
+            </form>
+            <div id="feedbackSuccess" class="feedback-success" style="display: none;">
+                <i class="fa-solid fa-check-circle"></i>
+                <p>Thank you for your feedback.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Biography Drawer -->
+    <div class="bio-drawer" id="bioDrawer">
+        <div class="drawer-overlay" id="bioOverlay"></div>
+        <div class="bio-content">
+            <button class="drawer-close" id="bioClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="drawer-body">
+                <h2 class="drawer-title">Dr. Lokesh Vijay</h2>
+                <div class="drawer-desc" style="color: var(--text-main); font-weight: 500; margin-bottom: 40px;">
+                    MBBS, M.S (General Surgery), DMAS, MCLS, FMAS, FISCP, FAIS<br>
+                    Email: drlokeshvijay@gmail.com | Ph: 8586848883
+                </div>
+                
+                <h3 class="bio-section-title">Professional Experience</h3>
+                <ul class="bio-list">
+                    <li><strong>Associate Consultant</strong>, General Surgery, Shree Aggarssain International Hospital (Dec 2023 - Present)</li>
+                    <li><strong>Consultant Minimal Access & Laser</strong>, Delhi Multispeciality Hospital (Sep 2022 - Present)</li>
+                    <li><strong>Attending Consultant</strong>, General Surgery, Shree Aggarssain International Hospital (Nov 2022 - Sep 2023)</li>
+                    <li><strong>Faculty</strong>, Dr. Bhatia Medical Coaching Institute (2017 - 2023)</li>
+                    <li><strong>Consultant, Endovenous Surgery</strong>, AVIS Hospital India Limited (Jul 2022 - Sep 2022)</li>
+                    <li><strong>Senior Resident</strong>, General Surgery, Maharishi Valmiki Hospital (Jan 2019 - Apr 2022)</li>
+                </ul>
+
+                <h3 class="bio-section-title mt-4">Educational Qualifications</h3>
+                <ul class="bio-list">
+                    <li><strong>Dip.MAS (Minimal Access Surgery)</strong> - Mediknit (AMASI), 2019-2020</li>
+                    <li><strong>M.S (General Surgery)</strong> - R.D Gardi Medical College, Ujjain (2016)</li>
+                    <li><strong>M.B.B.S</strong> - Shri Aurobindo Institute of Medical Sciences, Indore (2011)</li>
+                </ul>
+
+                <h3 class="bio-section-title mt-4">Additional Training</h3>
+                <ul class="bio-list">
+                    <li>Training on Anal Sphincter Repair & Gracilioplasty, Agra (2024)</li>
+                    <li>Training on Advanced Diabetic Foot Surgery, Mumbai (2024)</li>
+                    <li>Hands-on LASER Training in Proctology, Delhi (2023)</li>
+                    <li>Training in Diabetic foot & Microsurgery, Ganga Hospital (2022)</li>
+                    <li>Basic & Advanced Laparoscopic Training, AIIMS (2018)</li>
+                </ul>
+
+                <h3 class="bio-section-title mt-4">Authored Books</h3>
+                <ul class="bio-list">
+                    <li>Comprehensive Review of Surgery (4th, 5th, 6th Editions)</li>
+                    <li>LMRP 2.0 & 3.0 (Co-Authored)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Action Pill -->
+    <div class="quick-action-pill">
+        <a href="tel:+918586848883" class="pill-btn call" title="Emergency Call"><i class="fa-solid fa-phone-volume"></i></a>
+        <a href="https://wa.me/918586848883" class="pill-btn whatsapp" title="WhatsApp Us"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#appointment" class="pill-btn book" title="Book Consultation"><i class="fa-regular fa-calendar-check"></i></a>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
